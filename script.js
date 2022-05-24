@@ -45,7 +45,57 @@ function staticLoadPlaces() {
                 lat: 43.398344,
                 lng: 13.052279,
             }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.748600,
+                lng: 13.232766,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.760266,
+                lng: 13.214166,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.767216,
+                lng: 13.222216,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.755266,
+                lng: 13.241100,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.755270,
+                lng: 13.222173,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.756634,
+                lng: 13.223795,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.761646,
+                lng: 13.215774,
+            }
         }
+   
     ];
 }
 
