@@ -5,6 +5,13 @@ const loadPlaces = function (coords) {
     const PLACES = [
 
         {
+            name: 'Another place name',
+            location: {
+                lat: 43.398088,
+                lng: 13.052418,
+            }
+        },
+        {
             name: "Your place name",
             location: {
                 lat: 43.398333, // add here latitude if using static data
@@ -21,10 +28,87 @@ const loadPlaces = function (coords) {
         {
             name: 'Another place name',
             location: {
-                lat: 43.398088,
-                lng: 13.052418,
+                lat: 43.748600,
+                lng: 13.232766,
             }
         },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.760266,
+                lng: 13.214166,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.767216,
+                lng: 13.222216,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.755266,
+                lng: 13.241100,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.755270,
+                lng: 13.222173,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.756634,
+                lng: 13.223795,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.761646,
+                lng: 13.215774,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.760633,
+                lng: 13.214716,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.766933,
+                lng: 13.222133,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.7499,
+                lng: 13.233366,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.7495,
+                lng: 13.2328,
+            }
+        },
+        {
+            name: 'Another place name',
+            location: {
+                lat: 43.587116,
+                lng: 13.517559,
+            }
+        }
 
     ];
 
