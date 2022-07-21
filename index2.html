@@ -6,15 +6,6 @@
     <title>GeoAR.js demo</title>
     <script src='https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js'></script>
     <script src='./aframe-ar.min.js'></script>
-    <script>
-        AFRAME.registerComponent('clicker', {
-            init: function() {
-                this.el.addEventListener('click', e => {
-                    alert('Box clicked!');
-                });
-            }
-        });
-        </script>
 </head>
 
 <link rel="stylesheet" href="./index.css">
@@ -32,6 +23,5 @@
 
         <a-camera gps-camera="minDistance: 40;" rotation-reader>
 		</a-camera>
-        <a-box gps-projected-entity-place='latitude: 43.398088; longitude: 13.052418' color='red' scale='200 200 200' clicker></a-box>
 	</a-scene>
 </body>
