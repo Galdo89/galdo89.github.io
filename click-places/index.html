@@ -22,8 +22,8 @@
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'
         embedded
         renderer='antialias: true; alpha: true'>
-            <a-camera gps-projected-camera='simulateLatitude: 51.049; simulateLongitude: -0.723' rotation-reader></a-camera>
-            <a-box gps-projected-entity-place='latitude: 43.398088; longitude: 13.052418' color='red' scale='200 200 200' clicker></a-box>
+        <a-camera gps-camera="minDistance: 40;" rotation-reader></a-camera>
+        <a-box gps-projected-entity-place='latitude: 43.398088; longitude: 13.052418' color='red' scale='200 200 200' clicker></a-box>
     </a-scene>
 
 </a-scene>
