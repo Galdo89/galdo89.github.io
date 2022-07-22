@@ -10,8 +10,15 @@ function staticLoadPlaces() {
            location: {
                lat: 43.398285,
                lng: 13.052350,
-           }
+           } 
        },
+       {
+            name: 'Ufficio',
+            location: {
+                lat: 43.587047,
+                lng: 13.516854,
+        }
+    },
    ];
 }
 
